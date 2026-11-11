@@ -21,7 +21,7 @@ spec:
         runAsUser: 1000
       containers:
         - name: frontend
-          image: ghcr.io/cow-dev/hankki-atti-fe:latest
+          image: ghcr.io/cow-dev/hankki-atti-fe:v0.16.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
